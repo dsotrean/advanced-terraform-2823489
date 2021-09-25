@@ -4,10 +4,10 @@
 # WINDOWS
 # aws ec2 create-key-pair --key-name tf_key --query 'KeyMaterial' --output text | out-file -encoding ascii -filepath tf_key.pem
 
-aws_access_key = ""
+aws_access_key = "AKIARAZ2DNY5JLNDT2EP"
 
-aws_secret_key = ""
+aws_secret_key = "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"
 
-ssh_key_name = ""
+ssh_key_name = "tf_key"
 
-private_key_path = ""
+private_key_path = "tf_key.pem"
