@@ -4,4 +4,4 @@ terraform init \
     -backend-config="region=us-east-2" \
     -backend-config="dynamodb_table=red30-tfstatelock" \
     -backend-config="access_key=AKIARAZ2DNY5JLNDT2EP" \
-    -backend-config="secret_key=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"
+    -backend-config="secret_key="$"
